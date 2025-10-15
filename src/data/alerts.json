@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "title": "Multiple Failed Login Attempts",
+    "severity": "high",
+    "count": 5,
+    "sourceIP": "192.168.1.100",
+    "timestamp": "2024-01-15 14:23:45",
+    "description": "5 failed login attempts from the same IP address within 5 minutes",
+    "status": "active"
+  },
+  {
+    "id": 2,
+    "title": "Port Scanning Detected",
+    "severity": "critical",
+    "count": 1,
+    "sourceIP": "198.51.100.10",
+    "timestamp": "2024-01-15 14:35:42",
+    "description": "Port scanning activity detected from external IP address",
+    "status": "active"
+  },
+  {
+    "id": 3,
+    "title": "Suspicious Data Transfer",
+    "severity": "critical",
+    "count": 1,
+    "sourceIP": "203.0.113.45",
+    "timestamp": "2024-01-15 14:28:33",
+    "description": "Unusual data transfer pattern detected - investigating",
+    "status": "investigating"
+  },
+  {
+    "id": 4,
+    "title": "Sensitive Directory Access",
+    "severity": "medium",
+    "count": 1,
+    "sourceIP": "192.168.1.150",
+    "timestamp": "2024-01-15 14:30:01",
+    "description": "Access attempt to sensitive directory",
+    "status": "monitored"
+  },
+  {
+    "id": 5,
+    "title": "Database Connection Issues",
+    "severity": "medium",
+    "count": 3,
+    "sourceIP": "172.16.0.25",
+    "timestamp": "2024-01-15 14:32:18",
+    "description": "Multiple database connection timeouts",
+    "status": "resolved"
+  }
+]
+

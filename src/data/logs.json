@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "timestamp": "2024-01-15 14:23:45",
+    "sourceIP": "192.168.1.100",
+    "event": "Failed Login Attempt",
+    "severity": "high",
+    "description": "Multiple failed login attempts detected from IP 192.168.1.100",
+    "user": "admin",
+    "status": "blocked"
+  },
+  {
+    "id": 2,
+    "timestamp": "2024-01-15 14:25:12",
+    "sourceIP": "10.0.0.50",
+    "event": "Successful Login",
+    "severity": "low",
+    "description": "User successfully logged in from trusted IP",
+    "user": "john.doe",
+    "status": "allowed"
+  },
+  {
+    "id": 3,
+    "timestamp": "2024-01-15 14:28:33",
+    "sourceIP": "203.0.113.45",
+    "event": "Suspicious Activity",
+    "severity": "critical",
+    "description": "Unusual data transfer pattern detected",
+    "user": "unknown",
+    "status": "investigating"
+  },
+  {
+    "id": 4,
+    "timestamp": "2024-01-15 14:30:01",
+    "sourceIP": "192.168.1.150",
+    "event": "File Access",
+    "severity": "medium",
+    "description": "Access to sensitive directory attempted",
+    "user": "jane.smith",
+    "status": "monitored"
+  },
+  {
+    "id": 5,
+    "timestamp": "2024-01-15 14:32:18",
+    "sourceIP": "172.16.0.25",
+    "event": "System Error",
+    "severity": "medium",
+    "description": "Database connection timeout",
+    "user": "system",
+    "status": "resolved"
+  },
+  {
+    "id": 6,
+    "timestamp": "2024-01-15 14:35:42",
+    "sourceIP": "198.51.100.10",
+    "event": "Port Scan",
+    "severity": "high",
+    "description": "Port scanning activity detected from external IP",
+    "user": "unknown",
+    "status": "blocked"
+  },
+  {
+    "id": 7,
+    "timestamp": "2024-01-15 14:38:55",
+    "sourceIP": "192.168.1.200",
+    "event": "Configuration Change",
+    "severity": "low",
+    "description": "Firewall rule updated by authorized user",
+    "user": "admin",
+    "status": "approved"
+  },
+  {
+    "id": 8,
+    "timestamp": "2024-01-15 14:41:27",
+    "sourceIP": "10.0.0.75",
+    "event": "Data Export",
+    "severity": "medium",
+    "description": "Large data export initiated",
+    "user": "data.analyst",
+    "status": "monitored"
+  }
+]
+

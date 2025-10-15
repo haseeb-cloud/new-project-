@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Failed Login Threshold",
+    "eventType": "Failed Login Attempt",
+    "condition": "count > 3",
+    "threshold": 3,
+    "action": "block_ip",
+    "severity": "high",
+    "enabled": true,
+    "createdAt": "2024-01-10 09:00:00"
+  },
+  {
+    "id": 2,
+    "name": "Port Scan Detection",
+    "eventType": "Port Scan",
+    "condition": "count > 0",
+    "threshold": 1,
+    "action": "alert_and_block",
+    "severity": "critical",
+    "enabled": true,
+    "createdAt": "2024-01-10 09:15:00"
+  },
+  {
+    "id": 3,
+    "name": "Sensitive Directory Access",
+    "eventType": "File Access",
+    "condition": "path contains 'sensitive'",
+    "threshold": 1,
+    "action": "monitor",
+    "severity": "medium",
+    "enabled": true,
+    "createdAt": "2024-01-10 09:30:00"
+  },
+  {
+    "id": 4,
+    "name": "Large Data Export",
+    "eventType": "Data Export",
+    "condition": "size > 100MB",
+    "threshold": 100,
+    "action": "alert",
+    "severity": "medium",
+    "enabled": true,
+    "createdAt": "2024-01-10 09:45:00"
+  }
+]
+
